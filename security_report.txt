@@ -1,0 +1,31 @@
+SECURE CODING REVIEW REPORT
+
+Application: Login System
+Language: Python
+
+Vulnerability 1:
+Hardcoded Password
+
+Recommendation:
+Do not store passwords directly in code.
+
+---------------------------------
+
+Vulnerability 2:
+Plain Text Password
+
+Recommendation:
+Use password hashing.
+
+---------------------------------
+
+Vulnerability 3:
+No Login Attempt Limit
+
+Recommendation:
+Limit login attempts to 3.
+
+---------------------------------
+
+Conclusion:
+The application contains security vulnerabilities.
